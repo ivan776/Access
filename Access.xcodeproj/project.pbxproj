@@ -16,6 +16,7 @@
 		9233CC722817585300443F6C /* AccessTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9233CC712817585300443F6C /* AccessTests.swift */; };
 		9233CC7C2817585300443F6C /* AccessUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9233CC7B2817585300443F6C /* AccessUITests.swift */; };
 		9233CC7E2817585300443F6C /* AccessUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9233CC7D2817585300443F6C /* AccessUITestsLaunchTests.swift */; };
+		9233CC8B2819E7F900443F6C /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9233CC8A2819E7F900443F6C /* SignUpViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		9233CC772817585300443F6C /* AccessUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AccessUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9233CC7B2817585300443F6C /* AccessUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccessUITests.swift; sourceTree = "<group>"; };
 		9233CC7D2817585300443F6C /* AccessUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccessUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		9233CC8A2819E7F900443F6C /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				9233CC632817585300443F6C /* Assets.xcassets */,
 				9233CC652817585300443F6C /* LaunchScreen.storyboard */,
 				9233CC682817585300443F6C /* Info.plist */,
+				9233CC8A2819E7F900443F6C /* SignUpViewController.swift */,
 			);
 			path = Access;
 			sourceTree = "<group>";
@@ -260,6 +263,7 @@
 			files = (
 				9233CC5F2817585100443F6C /* ViewController.swift in Sources */,
 				9233CC5B2817585100443F6C /* AppDelegate.swift in Sources */,
+				9233CC8B2819E7F900443F6C /* SignUpViewController.swift in Sources */,
 				9233CC5D2817585100443F6C /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
