@@ -52,7 +52,6 @@
                                 </buttonConfiguration>
                                 <connections>
                                     <action selector="onSignOn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="B4n-2P-wDL"/>
-                                    <segue destination="vet-Ux-rbc" kind="presentation" id="h9W-Fv-C5V"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="r28-Gz-qfk">
@@ -78,6 +77,7 @@
                     <connections>
                         <outlet property="passwordField" destination="Ijs-9B-wEX" id="QOc-JY-ila"/>
                         <outlet property="usernameField" destination="eJv-qs-XtU" id="EXt-te-Tpy"/>
+                        <segue destination="vet-Ux-rbc" kind="show" identifier="loginSegue" id="rNR-JM-Yom"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -183,14 +183,15 @@
                         <viewLayoutGuide key="safeArea" id="cCD-Cg-RmX"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
+                    <navigationItem key="navigationItem" id="ffL-Pa-XQI"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="GwP-xd-rvq" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1908.6956521739132" y="97.767857142857139"/>
+            <point key="canvasLocation" x="501" y="1034"/>
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="h9W-Fv-C5V"/>
+        <segue reference="rNR-JM-Yom"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="Screen Shot 2022-04-27 at 1.28.00 PM-1" width="306" height="271"/>
