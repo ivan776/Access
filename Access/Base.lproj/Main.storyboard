@@ -51,6 +51,7 @@
                                     <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </buttonConfiguration>
                                 <connections>
+                                    <action selector="onSignOn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="B4n-2P-wDL"/>
                                     <segue destination="vet-Ux-rbc" kind="presentation" id="h9W-Fv-C5V"/>
                                 </connections>
                             </button>
@@ -189,7 +190,7 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="wXL-yy-56H"/>
+        <segue reference="h9W-Fv-C5V"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="Screen Shot 2022-04-27 at 1.28.00 PM-1" width="306" height="271"/>
