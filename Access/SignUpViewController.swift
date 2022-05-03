@@ -9,13 +9,42 @@ import UIKit
 
 class SignUpViewController: UIViewController {
 
+
+    
+    @IBOutlet weak var handicapButton: UIButton!
+    @IBOutlet weak var visualButton: UIButton!
+    @IBOutlet weak var auditoryButton: UIButton!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        // Do any additional setup after loading the view, typically from a nib.
     }
     
-
+    
+    @IBAction func handicapButtonClicked(_ sender: Any) {
+        if sender.isSelected{
+            sender.isSelect = false
+        }
+        else{
+            sender.isSelect = true
+        }
+    }
+    @IBAction func visualButtonClicked(_ sender: Any) {
+        if sender.isSelected{
+            sender.isSelect = false
+        }
+        else{
+            sender.isSelect = true
+        }
+    }
+    @IBAction func auditoryButtonClicked(_ sender: Any) {
+        if sender.isSelected{
+            sender.isSelect = false
+        }
+        else{
+            sender.isSelect = true
+        }
+    }
     /*
     // MARK: - Navigation
 
