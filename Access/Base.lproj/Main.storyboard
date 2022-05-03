@@ -191,13 +191,13 @@
         <!--DisplayBuildings-->
         <scene sceneID="EQl-4e-Rua">
             <objects>
-                <viewController title="DisplayBuildings" id="vet-Ux-rbc" sceneMemberID="viewController">
+                <viewController title="DisplayBuildings" id="vet-Ux-rbc" customClass="DisplayViewController" customModule="Access" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="oco-RA-e6O">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Y0N-M6-rJI">
-                                <rect key="frame" x="0.0" y="104" width="414" height="111"/>
+                                <rect key="frame" x="-1" y="104" width="414" height="111"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="OSU Student Center"/>
@@ -252,15 +252,18 @@
                         <viewLayoutGuide key="safeArea" id="cCD-Cg-RmX"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
+                    <connections>
+                        <outlet property="osuButton" destination="Y0N-M6-rJI" id="2Ln-yA-bdD"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="GwP-xd-rvq" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1908.6956521739132" y="97.767857142857139"/>
         </scene>
-        <!--View Controller-->
+        <!--DisplayPage-->
         <scene sceneID="sQU-Oa-dGK">
             <objects>
-                <viewController id="CaA-FJ-3bN" sceneMemberID="viewController">
+                <viewController title="DisplayPage" id="CaA-FJ-3bN" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="gg4-PK-HKL">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -306,7 +309,7 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="8o2-Sx-JkJ"/>
+        <segue reference="npu-zl-9cb"/>
         <segue reference="wXL-yy-56H"/>
     </inferredMetricsTieBreakers>
     <resources>
