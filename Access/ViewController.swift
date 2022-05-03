@@ -15,7 +15,11 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
-
+    @IBAction func onSignOn(_ sender: Any) {
+        let username = usernameField.text!
+        let password = passwordField.text!
+    }
+    
 
 }
 
