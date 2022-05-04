@@ -15,8 +15,8 @@ This app allows users to confirm whether or not a building has accomodations for
 
 ### App Evaluation
 [Evaluation of your app across the following attributes]
-- **Category:**
-- **Mobile:**
+- **Category:** Health and Wellness
+- **Mobile:** iOS
 - **Story:**
 - **Market:**
 - **Habit:**
