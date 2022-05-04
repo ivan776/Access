@@ -12,6 +12,10 @@ class SignUpViewController: UIViewController {
     @IBOutlet weak var usernameField: UITextField!
     @IBOutlet weak var passwordField: UITextField!
     
+    @IBOutlet weak var physical: UIButton!
+    @IBOutlet weak var auditory: UIButton!
+    @IBOutlet weak var visual: UIButton!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -38,7 +42,31 @@ class SignUpViewController: UIViewController {
         }
     }
     
-
+    @IBAction func physicalClicked(_ sender: UIButton) {
+        if sender.isSelected{
+              sender.isSelected = false
+            }
+            else{
+              sender.isSelected = true
+            }
+    }
+    @IBAction func auditoryClicked(_ sender: UIButton) {
+        if sender.isSelected{
+              sender.isSelected = false
+            }
+            else{
+              sender.isSelected = true
+            }
+    }
+    @IBAction func visualClicked(_ sender: UIButton) {
+        if sender.isSelected{
+              sender.isSelected = false
+            }
+            else{
+              sender.isSelected = true
+            }
+    }
+    
     /*
     // MARK: - Navigation
 
