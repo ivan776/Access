@@ -15,6 +15,8 @@ class SignUpViewController: UIViewController {
     @IBOutlet weak var physical: UIButton!
     @IBOutlet weak var auditory: UIButton!
     @IBOutlet weak var visual: UIButton!
+    var disabilites = [String]()
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -25,7 +27,7 @@ class SignUpViewController: UIViewController {
         let user = PFUser()
         user.username = usernameField.text
         user.password = passwordField.text
-        
+//        user.disabilities = disabilites
         user.signUpInBackground { (success, error) in
             if success {
                 self.performSegue(withIdentifier: "mainPageSegue", sender: nil)
@@ -48,6 +50,7 @@ class SignUpViewController: UIViewController {
             }
             else{
               sender.isSelected = true
+                disabilites.append("Physical")
             }
     }
     @IBAction func auditoryClicked(_ sender: UIButton) {
@@ -56,6 +59,7 @@ class SignUpViewController: UIViewController {
             }
             else{
               sender.isSelected = true
+              disabilites.append("Auditory")
             }
     }
     @IBAction func visualClicked(_ sender: UIButton) {
@@ -64,6 +68,7 @@ class SignUpViewController: UIViewController {
             }
             else{
               sender.isSelected = true
+              disabilites.append("Visual")
             }
     }
     
