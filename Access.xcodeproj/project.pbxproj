@@ -20,7 +20,6 @@
 		9233CC7E2817585300443F6C /* AccessUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9233CC7D2817585300443F6C /* AccessUITestsLaunchTests.swift */; };
 		9233CC8B2819E7F900443F6C /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9233CC8A2819E7F900443F6C /* SignUpViewController.swift */; };
 		CFA2C042FA78FADD39F9D60B /* Pods_AccessTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADE18B357F93A50ED965C667 /* Pods_AccessTests.framework */; };
-		D14CCBC72820F11800FD7515 /* DisplayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D14CCBC62820F11800FD7515 /* DisplayViewController.swift */; };
 		DCCE5E3DE3132FDCEF566C24 /* Pods_Access_AccessUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 405E017299716AF783F5A627 /* Pods_Access_AccessUITests.framework */; };
 /* End PBXBuildFile section */
 
@@ -66,7 +65,6 @@
 		C21E992659E72D046E4FD6B7 /* Pods_Access.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Access.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CFD260B03A7B720959FF4500 /* Pods-AccessTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AccessTests.debug.xcconfig"; path = "Target Support Files/Pods-AccessTests/Pods-AccessTests.debug.xcconfig"; sourceTree = "<group>"; };
 		D0643DFEA73212D337DDEF60 /* Pods-Access.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Access.release.xcconfig"; path = "Target Support Files/Pods-Access/Pods-Access.release.xcconfig"; sourceTree = "<group>"; };
-		D14CCBC62820F11800FD7515 /* DisplayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplayViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +115,7 @@
 				CFD260B03A7B720959FF4500 /* Pods-AccessTests.debug.xcconfig */,
 				3A4A575A6EC518915619345C /* Pods-AccessTests.release.xcconfig */,
 			);
+			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -149,7 +148,6 @@
 				9233CC5C2817585100443F6C /* SceneDelegate.swift */,
 				9233CC5E2817585100443F6C /* ViewController.swift */,
 				9233CC602817585100443F6C /* Main.storyboard */,
-				D14CCBC62820F11800FD7515 /* DisplayViewController.swift */,
 				9233CC632817585300443F6C /* Assets.xcassets */,
 				9233CC652817585300443F6C /* LaunchScreen.storyboard */,
 				9233CC682817585300443F6C /* Info.plist */,
@@ -415,7 +413,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D14CCBC72820F11800FD7515 /* DisplayViewController.swift in Sources */,
 				9233CC5F2817585100443F6C /* ViewController.swift in Sources */,
 				9233CC5B2817585100443F6C /* AppDelegate.swift in Sources */,
 				9233CC8B2819E7F900443F6C /* SignUpViewController.swift in Sources */,
