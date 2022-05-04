@@ -198,35 +198,34 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Y0N-M6-rJI">
-                                <rect key="frame" x="0.0" y="104" width="414" height="111"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="OSU Student Center"/>
-                            </button>
+
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5Mc-WA-vO8">
                                 <rect key="frame" x="0.0" y="254" width="414" height="111"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Buisness Information &amp; Technology "/>
+
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Umj-Qz-Fei">
                                 <rect key="frame" x="0.0" y="373" width="414" height="111"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Sports Center"/>
+
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LCs-Xj-mrQ">
                                 <rect key="frame" x="7" y="531" width="414" height="111"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="College of Arts, Humanities, and Social Sciences Building"/>
+
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Vfd-Hf-9Gz">
                                 <rect key="frame" x="0.0" y="659" width="414" height="111"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Tanimura &amp; Antle Family Memorial Library"/>
+
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Buildings at CSUMB" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="r0q-vs-2ec">
                                 <rect key="frame" x="136" y="32" width="157" height="21"/>
@@ -235,23 +234,53 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Y0N-M6-rJI">
+                                <rect key="frame" x="0.0" y="100" width="414" height="111"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="OSU Student Center"/>
+                                <connections>
+                                    <action selector="osuButton:" destination="3ba-Bm-c70" eventType="touchUpInside" id="S6s-Kk-ItY"/>
+                                    <action selector="osuButtonClicked:" destination="3ba-Bm-c70" eventType="touchUpInside" id="kJm-nE-8mA"/>
+                                    <segue destination="CaA-FJ-3bN" kind="presentation" id="VwX-QQ-fks"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="cCD-Cg-RmX"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
+
+=======
                     <navigationItem key="navigationItem" id="ffL-Pa-XQI"/>
+
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="GwP-xd-rvq" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <exit id="3ba-Bm-c70" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
             <point key="canvasLocation" x="501" y="1034"/>
         </scene>
-    </scenes>
+
+    </inferredMetricsTieBreakers>
+    <resources>
+        <image name="Screen Shot 2022-04-27 at 1.28.00 PM-1" width="306" height="271"/>
+        <image name="Screen Shot 2022-05-03 at 9.40.30 PM" width="1143" height="962"/>
+        <image name="Screen Shot 2022-05-03 at 9.44.27 PM" width="1109" height="949"/>
+        <image name="Screen Shot 2022-05-03 at 9.44.54 PM" width="1289" height="964"/>
+        <image name="Screen Shot 2022-05-03 at 9.47.29 PM" width="809" height="259"/>
+        <image name="Screen Shot 2022-05-03 at 9.48.58 PM" width="496" height="327"/>
+        <systemColor name="labelColor">
+            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+
+      </scenes>
     <inferredMetricsTieBreakers>
         <segue reference="wXL-yy-56H"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="Screen Shot 2022-04-27 at 1.28.00 PM-1" width="306" height="271"/>
         <image name="circle" catalog="system" width="128" height="121"/>
+
+      
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
