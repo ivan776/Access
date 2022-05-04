@@ -12,14 +12,10 @@ class SignUpViewController: UIViewController {
     @IBOutlet weak var usernameField: UITextField!
     @IBOutlet weak var passwordField: UITextField!
     
-    @IBOutlet weak var handicapButton: UIButton!
-    @IBOutlet weak var visualButton: UIButton!
-    @IBOutlet weak var auditoryButton: UIButton!
-
-    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+
+        // Do any additional setup after loading the view.
     }
     @IBAction func onSignUp(_ sender: Any) {
         let user = PFUser()
@@ -42,31 +38,7 @@ class SignUpViewController: UIViewController {
         }
     }
     
-//    
-//    @IBAction func handicapButtonClicked(_ sender: UIButton) {
-//        if sender.isSelected{
-//            sender.isSelected = false
-//        }
-//        else{
-//            sender.isSelected = true
-//        }
-//    }
-//    @IBAction func visualButtonClicked(_ sender: UIButton) {
-//        if sender.isSelected{
-//            sender.isSelected = false
-//        }
-//        else{
-//            sender.isSelected = true
-//        }
-//    }
-//    @IBAction func auditoryButtonClicked(_ sender: UIButton) {
-//        if sender.isSelected{
-//            sender.isSelected = false
-//        }
-//        else{
-//            sender.isSelected = true
-//        }
-//    }
+
     /*
     // MARK: - Navigation
 
