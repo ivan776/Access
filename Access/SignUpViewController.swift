@@ -9,6 +9,8 @@ import UIKit
 import Parse
 
 class SignUpViewController: UIViewController {
+    @IBOutlet weak var usernameField: UITextField!
+    @IBOutlet weak var passwordField: UITextField!
     
     @IBOutlet weak var handicapButton: UIButton!
     @IBOutlet weak var visualButton: UIButton!
@@ -40,31 +42,31 @@ class SignUpViewController: UIViewController {
         }
     }
     
-    
-    @IBAction func handicapButtonClicked(_ sender: Any) {
-        if sender.isSelected{
-            sender.isSelect = false
-        }
-        else{
-            sender.isSelect = true
-        }
-    }
-    @IBAction func visualButtonClicked(_ sender: Any) {
-        if sender.isSelected{
-            sender.isSelect = false
-        }
-        else{
-            sender.isSelect = true
-        }
-    }
-    @IBAction func auditoryButtonClicked(_ sender: Any) {
-        if sender.isSelected{
-            sender.isSelect = false
-        }
-        else{
-            sender.isSelect = true
-        }
-    }
+//    
+//    @IBAction func handicapButtonClicked(_ sender: UIButton) {
+//        if sender.isSelected{
+//            sender.isSelected = false
+//        }
+//        else{
+//            sender.isSelected = true
+//        }
+//    }
+//    @IBAction func visualButtonClicked(_ sender: UIButton) {
+//        if sender.isSelected{
+//            sender.isSelected = false
+//        }
+//        else{
+//            sender.isSelected = true
+//        }
+//    }
+//    @IBAction func auditoryButtonClicked(_ sender: UIButton) {
+//        if sender.isSelected{
+//            sender.isSelected = false
+//        }
+//        else{
+//            sender.isSelected = true
+//        }
+//    }
     /*
     // MARK: - Navigation
 
