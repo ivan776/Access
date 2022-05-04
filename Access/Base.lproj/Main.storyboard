@@ -121,7 +121,8 @@
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Create Account"/>
                                 <connections>
-                                    <segue destination="vet-Ux-rbc" kind="presentation" id="wXL-yy-56H"/>
+                                    <action selector="onSignUp:" destination="w1w-u2-Sco" eventType="touchUpInside" id="NNa-Rd-F2G"/>
+                                    <segue destination="vet-Ux-rbc" kind="presentation" identifier="mainPageSegue" id="wXL-yy-56H"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -129,6 +130,10 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                     <navigationItem key="navigationItem" id="1Rj-Zn-TbZ"/>
+                    <connections>
+                        <outlet property="passwordField" destination="Os3-5S-Bqi" id="Iiv-cC-zsI"/>
+                        <outlet property="usernameField" destination="vnR-hj-tQC" id="Bp6-AG-7n4"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4fo-Z7-gDc" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -191,7 +196,7 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="rNR-JM-Yom"/>
+        <segue reference="wXL-yy-56H"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="Screen Shot 2022-04-27 at 1.28.00 PM-1" width="306" height="271"/>
